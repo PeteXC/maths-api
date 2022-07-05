@@ -4,11 +4,16 @@ go 1.18
 
 require (
 	github.com/akrylysov/algnhsa v0.12.1
+	github.com/aws/aws-cdk-go/awscdk/v2 v2.30.0
+	github.com/aws/aws-cdk-go/awscdklambdagoalpha/v2 v2.30.0-alpha.0
+	github.com/aws/constructs-go/constructs/v10 v10.1.43
+	github.com/aws/jsii-runtime-go v1.60.1
 	github.com/gorilla/mux v1.8.0
 	github.com/joerdav/zapray v0.0.27
 )
 
 require (
+	github.com/Masterminds/semver/v3 v3.1.1 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/aws/aws-lambda-go v1.9.0 // indirect
 	github.com/aws/aws-sdk-go v1.17.12 // indirect
